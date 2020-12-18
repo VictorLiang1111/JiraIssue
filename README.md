@@ -2,7 +2,7 @@
 
 ### 配置
 
-設置目錄內的climbIssue.ini配置
+依據目錄內的climbIssue.sample.ini設置climbIssue.ini配置
 
 ```
 [DEFAULT]
