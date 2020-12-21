@@ -38,7 +38,10 @@ pyinstaller -F climbIssue.py
 ```
 
 ### exe檔案操作
-1. 拿到.exe檔案後，設置目錄內的climbIssue.ini配置
+1. 先拿到.exe檔案後，取得Atlassian的API key用來做資料存取
+  https://id.atlassian.com/manage-profile/security/api-tokens
+
+2. 設置目錄內的climbIssue.ini配置
 
 ```
 [DEFAULT]
@@ -48,7 +51,7 @@ api_key=                            \\ jira的使用者API key
 finish_text=Done                    \\ 完成的key word
 ```
 
-2. 點擊.exe檔案,並依序填入專案名稱,專案spring,issue被指派人
+3. 點擊.exe檔案,並依序填入專案名稱,專案spring,issue被指派人
 
 ```
 Please enter project(ZRSH):
