@@ -54,7 +54,7 @@ finish_text=Done                    \\ 完成的key word
 3. 點擊.exe檔案,並依序填入專案名稱,專案spring,issue被指派人
 
 ```
-Please enter project(ZRSH):
-Please enter Sprint(openSprints()):
-Please enter assignee people(self):
+Please enter project(ZRSH):           \\ 預設產品研發
+Please enter Sprint(openSprints()):   \\ 預設啟動的Sprint
+Please enter assignee people(self):   \\ 預設自己
 ```
