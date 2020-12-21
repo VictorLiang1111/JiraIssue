@@ -1,8 +1,10 @@
 # 取得JIRA單
 
 ### 配置
+1. 先取得Atlassian的API key用來做資料存取
+  https://id.atlassian.com/manage-profile/security/api-tokens
 
-依據目錄內的climbIssue.sample.ini設置climbIssue.ini配置
+2. 依據目錄內的climbIssue.sample.ini設置climbIssue.ini配置
 
 ```
 [DEFAULT]
